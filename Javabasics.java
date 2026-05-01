@@ -926,29 +926,29 @@
 
 
 
-public class Javabasics {
-    public static boolean isPrime(int n) {
-        if(n == 2) {
-            return true;
-        } 
-         for(int i = 2; i <= Math.sqrt(n); i++) {
-            if(n % i == 0) {
-                return false;
-             }
-         }
-        return true;
-    }
-    public static void primerange(int n) {
-        int count = 0;
-        for(int i = 2; i <= n; i++) {
-            if(isPrime(i)) {    // if true then 
-                System.out.print(i + " ");
-                count++;
-            }
-        }
-        System.out.println("\nTotal prime numbers up to " + n + " are: " + count);
-    }   
-    public static void main(String[] args) {
-        primerange(100);
-    }
-}
+// public class Javabasics {
+//     public static boolean isPrime(int n) {
+//         if(n == 2) {
+//             return true;
+//         } 
+//          for(int i = 2; i <= Math.sqrt(n); i++) {
+//             if(n % i == 0) {
+//                 return false;
+//              }
+//          }
+//         return true;
+//     }
+//     public static void primerange(int n) {
+//         int count = 0;
+//         for(int i = 2; i <= n; i++) {
+//             if(isPrime(i)) {    // if true then 
+//                 System.out.print(i + " ");
+//                 count++;
+//             }
+//         }
+//         System.out.println("\nTotal prime numbers up to " + n + " are: " + count);
+//     }   
+//     public static void main(String[] args) {
+//         primerange(100);
+//     }
+// }
