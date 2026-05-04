@@ -59,18 +59,18 @@
 
 
 
-import java.util.*;
-public class Javabasics {
-    public static void main(String[] args) {
-       Scanner sc = new Scanner(System.in);
-        System.out.print ("Enter numbers: ");
-         float a = sc.nextFloat();
-         System.out.print ("Enter another number: ");
-         int b = sc.nextInt();
-         int sum = a * b;
-            System.out.println("The Multiplication is: " + sum);
-    }
-}
+// import java.util.*;
+// public class Javabasics {
+//     public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//         System.out.print ("Enter numbers: ");
+//          float a = sc.nextFloat();
+//          System.out.print ("Enter another number: ");
+//          int b = sc.nextInt();
+//           sum = (int) a * b;
+//             System.out.println("The Multiplication is: " + sum);
+//     }
+// }
 
 
 // import java.util.*;
@@ -434,20 +434,20 @@ public class Javabasics {
 // }
 
 
-// public class Javabasics {
-//     public static void main(String[] args) {
-//       int n = 987654321;
-//       int digit = 0;
-//       int rev = 0;
-//       while(n>0) {
-//         digit = n%10;
-//         rev = rev * 10 + digit;
-//         // System.out.print(rev + " \n");
-//         n = n/10;
-//       }
-//       System.out.println("The reverse is: " + rev);
-//     }
-// }
+public class Javabasics {
+    public static void main(String[] args) {
+      int n = 987654321;
+      int digit = 0;
+      int rev = 0;
+      while(n>0) {
+        digit = n%10;
+        rev = (rev * 10) + digit;
+        System.out.print(rev + " \n");
+        n = n/10;
+      }
+      System.out.println("The reverse is: " + rev);
+    }
+}
 
 
 
