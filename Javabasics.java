@@ -434,20 +434,20 @@
 // }
 
 
-public class Javabasics {
-    public static void main(String[] args) {
-      int n = 987654321;
-      int digit = 0;
-      int rev = 0;
-      while(n>0) {
-        digit = n%10;
-        rev = (rev * 10) + digit;
-        System.out.print(rev + " \n");
-        n = n/10;
-      }
-      System.out.println("The reverse is: " + rev);
-    }
-}
+// public class Javabasics {
+//     public static void main(String[] args) {
+//       int n = 987654321;
+//       int digit = 0;
+//       int rev = 0;
+//       while(n>0) {
+//         digit = n%10; // gives remainder which is the last digit of n
+//         rev = (rev * 10) + digit;
+//         System.out.print(rev + " \n");
+//         n = n/10;
+//       }
+//       System.out.println("The reverse is: " + rev);
+//     }
+// }
 
 
 
@@ -977,3 +977,40 @@ public class Javabasics {
 //         }
 //     }
 // }
+
+
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         int a = 10;
+//         int b = 20;
+//         System.out.println("Hello World" + a + b); // Java evaluates this left to right, and since "Hello World" is a String, everything after that becomes string concatenation, not addition.
+//     }
+// }
+
+// // Increment and Decrement Operator ++ and --
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         int a = 10;
+//         int b = ++a; // Unary plus, does not change the value of a for the assignment to b, but increments a before the assignment.
+//         System.out.println(a); // Now a is 11
+//         System.out.println(b); // b is assigned the value of a after pre-increment,
+//     }
+// }  // 11  11
+
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         int a = 10;
+//         int b = a++; // Post-increment, assigns the current value of a to b, then increments a.
+//         System.out.println(a); // Now a is 11
+//         System.out.println(b); // b is assigned the value of a before post-increment, which is 10
+//     }
+// }  // 11  10
+
+public class Javabasics {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = a--; // Post-decrement, assigns the current value of a to b, then decrements a.
+        System.out.println(a); // Now a is 9
+        System.out.println(b); // b is assigned the value of a before post-decrement, which is 10
+    }
+}  // 9  10
