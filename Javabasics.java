@@ -39,7 +39,7 @@
 //     public static void main(String[] args) {
 //         byte b = 127;
 //         long a = 0000000000;
-//         System.out.println(a);    
+//         System.out.println(b);    
 //     }
 // }
 
@@ -59,18 +59,18 @@
 
 
 
-// import java.util.*;
-// public class Javabasics {
-//     public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//         System.out.print ("Enter numbers: ");
-//          float a = sc.nextFloat();
-//          System.out.print ("Enter another number: ");
-//          int b = sc.nextInt();
-//          float sum = a * b;
-//             System.out.println("The Multiplication is: " + sum);
-//     }
-// }
+import java.util.*;
+public class Javabasics {
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+        System.out.print ("Enter numbers: ");
+         float a = sc.nextFloat();
+         System.out.print ("Enter another number: ");
+         int b = sc.nextInt();
+         int sum = a * b;
+            System.out.println("The Multiplication is: " + sum);
+    }
+}
 
 
 // import java.util.*;
@@ -950,5 +950,30 @@
 //     }   
 //     public static void main(String[] args) {
 //         primerange(100);
+//     }
+// }
+
+// public class Javabasics {
+
+//     public static int[] twoSum(int[] nums, int target) {
+//         for (int i = 0; i < nums.length; i++) {
+//             for (int j = i + 1; j < nums.length; j++) {
+
+//                 if (nums[i] + nums[j] == target) {
+//                     return new int[]{i, j};
+//                 }
+//             }
+//         }
+//         return new int[]{};
+//     }
+
+//     public static void main(String[] args) {
+//         int[] result = twoSum(new int[]{2, 6, 11, 15}, 9);
+
+//         if (result.length > 0) {
+//             System.out.println(result[0] + " " + result[1]);
+//         } else {
+//             System.out.println("No solution found");
+//         }
 //     }
 // }
