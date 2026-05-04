@@ -1006,11 +1006,61 @@
 //     }
 // }  // 11  10
 
-public class Javabasics {
-    public static void main(String[] args) {
-        int a = 10;
-        int b = a--; // Post-decrement, assigns the current value of a to b, then decrements a.
-        System.out.println(a); // Now a is 9
-        System.out.println(b); // b is assigned the value of a before post-decrement, which is 10
-    }
-}  // 9  10
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         int a = 10;
+//         int b = a--; // Post-decrement, assigns the current value of a to b, then decrements a.
+//         System.out.println(a); // Now a is 9
+//         System.out.println(b); // b is assigned the value of a before post-decrement, which is 10
+//     }
+// }  // 9  10
+
+// // public class Javabasics {
+//     public static void main(String[] args) {
+//         int a = 10;
+//         int b = --a; // Pre-decrement, decrements a before the assignment to b.
+//         System.out.println(a); // Now a is 9
+//         System.out.println(b); // b is assigned the value of a after pre-decrement, which is 9
+//     }
+// }  // 9  9
+
+
+
+
+// A=A+1 ----- A+=1
+// A=A-1 ----- A-=1     
+// A=A*1 ----- A*=1
+// A=A/1 ----- A/=1
+//A = A % 1 ----- A %= 1
+
+
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         int year = 2000;
+//         if((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
+//             System.out.println(year + " is a leap year");
+//         }
+//         else {
+//             System.out.println(year + " is not a leap year");
+
+//         }
+//     }
+// }
+
+// public class Javabasics {
+//     public static void main(String[] args) {
+//        int year = 2000;
+//        if (year % 400 == 0) {
+//         System.out.println(year + " is a leap year");
+//         }
+//         else if(year % 100 == 0) {
+//             System.out.println(year + " is not a leap year");
+//         }
+//         else if(year % 4 == 0) {
+//             System.out.println(year + " is a leap year");
+//         }
+//         else {
+//             System.out.println(year + " is not a leap year");
+//         }
+//     }
+// }
