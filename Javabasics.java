@@ -1064,3 +1064,39 @@
 //         }
 //     }
 // }
+
+
+// public class Javabasics {
+//     public static void main(String[] args) {
+
+// int x = 0;
+
+// for(int i = 0; i < 5; i++) {
+//     x = i * 2;
+// }
+
+// // System.out.println(i); // works
+// System.out.println(x); // works
+
+//     }}
+
+import java.util.*;
+
+public class Javabasics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        for( ; true; ) {
+            int n = sc.nextInt();
+
+            if(n % 5 == 0) {
+                break;
+            }
+
+            System.out.println(n);
+        }
+
+        System.out.println("Exited the loop");
+        System.out.println(n);
+    }
+}
