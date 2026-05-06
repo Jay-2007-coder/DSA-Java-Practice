@@ -1080,23 +1080,86 @@
 
 //     }}
 
-import java.util.*;
+
+
+// import java.util.*;
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         for( ; true; ) {
+//             int n = sc.nextInt();
+
+//             if(n % 5 == 0) {
+//                 break;
+//             }
+
+//             System.out.println(n);
+//         }
+
+//         System.out.println("Exited the loop");
+//         // System.out.println(n); // does not work because n is declared inside the loop and is not accessible outside of it.
+//         }
+// }
+
+// import java.util.*;
+// public class Javabasics {
+//     public static void main(String[] args) {
+//       Scanner sc = new Scanner(System.in);
+//       System.out.print ("Enter n: ");
+//          int n = sc.nextInt();
+//          boolean isPrime = true;
+//          if (n == 2) {
+//              System.out.println(n + " is a prime number");
+//              return; // we can return here because we have already determined that n is prime, so no need to check further.
+//          }
+//          for(int i = 2; i <= Math.sqrt(n); i++) {
+//              if(n % i == 0) {
+//                  isPrime = false;
+//                  break; // we can break here because we have already found a divisor, so no need to check further.
+//              }
+//          }
+//          if(isPrime) {
+//              System.out.println(n + " is a prime number");
+//          }
+//          else {
+//              System.out.println(n + " is not a prime number");
+//          }
+//     }
+// }
+
+
+// import java.util.*;
+// public class Javabasics {
+//     public static void main (String args[]) {
+//         Scanner sc=new Scanner(System.in);
+//         int evenno = 0;
+//         int oddno = 0;
+//         System.out.println("how many numbers you want to enter: ");
+//         int n = sc.nextInt();
+
+//         for(int i=1 ; i<=n ; i++) {
+//             System.out.println("Enter a number: " + i);
+//             int num = sc.nextInt();
+//             if(num % 2 == 0) {
+//                 evenno = evenno + num;
+//             }
+//             else {
+//                 oddno = oddno + num;
+//             }
+//         }
+//         System.out.println("Sum of even numbers = " + evenno);
+//         System.out.println("Sum of odd numbers = " + oddno);
+//     }
+// }
 
 public class Javabasics {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        for( ; true; ) {
-            int n = sc.nextInt();
-
-            if(n % 5 == 0) {
-                break;
-            }
-
-            System.out.println(n);
+        int n =0 ;
+        int fact =1;
+        for(int i = n; i >= 1; i--) {
+            fact = i * fact;
         }
-
-        System.out.println("Exited the loop");
-        System.out.println(n);
+        System.out.println("Factorial of " + n + " is: " + fact);
     }
 }
