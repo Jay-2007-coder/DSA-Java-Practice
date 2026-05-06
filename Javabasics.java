@@ -1334,3 +1334,72 @@
 // 2 3 
 // 4 5 6 
 // 7 8 9 10 
+
+//function
+// public class Javabasics {
+//     public static void printHello() {   
+//         System.out.println("Hello World");  
+        
+//     }   
+//     public static void main(String[] args) {
+//         for(int i = 0; i < 5; i++) {
+//             printHello();
+//         }
+//     }   
+// }     
+
+
+// public class Javabasics {
+//     public static int printHello() {   
+//         System.out.println("Hello World");  
+//         return 245; // we can return any value here, but since the function is not being used to return a value, we can just return a dummy value.
+//     }   
+//     public static void main(String[] args) {
+//         for(int i = 0; i < 5; i++) {
+//             printHello();
+//         }
+//     }   
+// }     
+
+// import java.util.Scanner;
+
+// public class Javabasics {
+   
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter the first number: ");
+//         int a = sc.nextInt();
+//         System.out.print("Enter the second number: ");
+//         int b = sc.nextInt();
+        
+//         sum(a ,b);
+//     }
+//     public static void sum(int a, int b) {
+//         int sum = a + b;
+//         System.out.println("The sum is: " + sum);
+//     }
+// }
+
+
+
+import java.util.Scanner;
+
+public class Javabasics {
+   
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int a = sc.nextInt();
+        System.out.print("Enter the second number: ");
+        int b = sc.nextInt();
+        
+        int sum = sum(a ,b);
+        System.out.println("The sum is: " + sum);
+    }
+    public static int sum(int a, int b) {
+        int sum = a + b;
+        
+        return sum; // we can return the sum if we want to use it later in the program, but since we are not using it, we can just return a dummy value or not return anything at all.
+    }
+}
+
