@@ -1153,13 +1153,159 @@
 //     }
 // }
 
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         int n =0 ;
+//         int fact =1;
+//         for(int i = n; i >= 1; i--) {
+//             fact = i * fact;
+//         }
+//         System.out.println("Factorial of " + n + " is: " + fact);
+//     }
+// }
+
+
+//alternate 
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         int n = 5;
+//         int fact = 1;
+//         for(int i = 1; i <= n; i++) {
+//             fact = i * fact;
+//         }
+//         System.out.println("Factorial of " + n + " is: " + fact);
+//     }
+// }
+
+
+
+
+// Nested loop to print pattern
+
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         for(int i = 1; i<=5 ; i++) {
+//             for(char j = 65 ; j<i + 65 ; j++) {
+//                 System.out.print(j + " ");
+//             }
+//             System.out.println();  //
+//         }
+//     }
+// }
+// A 
+// A B 
+// A B C 
+// A B C D 
+// A B C D E 
+
+
+
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         int n =4;
+//         for(int i = 1 ; i<=n ; i++)
+//  {
+//     for(int j =1 ; j<=n-i+1; j++) {
+//         System.out.print("*");
+//     }
+// System.out.println();
+//  }        
+// }
+// }
+
+// ****
+// ***
+// **
+// *
+
+
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         int n =4;
+//         for(int i = 1 ; i<=n ; i++)
+//  {
+//     for(int j =1 ; j<=i; j++) {
+//         System.out.print("* ");
+//     }
+//     System.out.println();
+// }
+//     }
+// }
+
+// * 
+// * * 
+// * * * 
+// * * * * 
+
+
+//  public class Javabasics {
+//     public static void main(String[] args) {
+//         int n =4;
+//         for(int i = 1 ; i<=n ; i++)
+//  {
+//     for(int j =1 ; j<=i; j++) {
+//         System.out.print(j);
+//     }
+//     System.out.println();
+// }
+//     }
+// }
+
+// 1
+// 12
+// 123
+// 1234
+
+
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         int n =4;
+//         char ch = 'A';
+//         for(int i = 1; i<=n ; i++) {
+//             for(int j= 1 ; j<=i ; j++) {
+//                 System.out.print(ch + " ");
+//                 ch++;
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+// A 
+// B C 
+// D E F 
+// G H I J 
+
+
+// public class Javabasics {
+//     public static void main(String[] args) {
+//         int n =4;
+//         for(int i = 5 ; i>=1 ; i--) {
+//             for(char j = 'A' ; j<'A' + i ; j++) {
+//                 System.out.print(j + " ");
+//         }
+//         System.out.println();
+//         }
+//     }
+// }
+
+// A B C D E 
+// A B C D 
+// A B C 
+// A B 
+// A 
+
+
 public class Javabasics {
     public static void main(String[] args) {
-        int n =0 ;
-        int fact =1;
-        for(int i = n; i >= 1; i--) {
-            fact = i * fact;
+        int n =4;
+        char ch = 'A';
+        for(int i = 4; i>=1 ; i--) {
+            for(int j= 1 ; j<= i; j++) {
+                System.out.print(ch + " ");
+                ch++;
+            }
+            System.out.println();
         }
-        System.out.println("Factorial of " + n + " is: " + fact);
     }
 }
